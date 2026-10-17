@@ -65,9 +65,13 @@ SharePoint (archivo nuevo) → **Iniciar y esperar una aprobación** → **Condi
 |---|---|
 | Palabra clave (BM25) `"acumular"` | 1 fragmento (coincidencia exacta) |
 | Vectorial: "¿hasta cuándo puedo usar los días que me sobraron?" | 2 fragmentos sin compartir palabras con la pregunta, pero rankeó primero un chunk con solo **parte** de la respuesta (efecto del solapamiento) |
-| Híbrida + semantic ranker | El chunk con la respuesta completa subió al primer lugar (`rerankerScore` 1.69 vs 1.62) |
+| Híbrida + semantic ranker | El chunk con la respuesta completa subió al primer lugar (`rerankerScore` 1.69 vs 1.62 en la primera prueba). Una reejecución posterior, que se muestra abajo, devolvió primero la política de Vacaciones con un `rerankerScore` de 2.00 |
 
 **Conclusión:** en RAG conviene usar búsqueda híbrida (RRF) con reranking semántico; la búsqueda vectorial sola no siempre ordena bien.
+
+![Consulta híbrida en Search Explorer](assets/07-ai-search-hybrid-query.png)
+
+![Resultados con puntajes del reranker](assets/07b-ai-search-hybrid-query-results.png)
 
 
 ## Seguridad: incidente encontrado y corregido

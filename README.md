@@ -65,9 +65,13 @@ SharePoint (new file) → **Start and wait for an approval** → **Condition** (
 |---|---|
 | Keyword (BM25) `"acumular"` | 1 chunk (exact match) |
 | Vector: "until when can I use the days I had left?" | 2 chunks that share no words with the question, but the top one held only **part** of the answer (effect of chunk overlap) |
-| Hybrid + semantic ranker | The chunk with the full answer moved to first place (`rerankerScore` 1.69 vs 1.62) |
+| Hybrid + semantic ranker | The chunk with the full answer moved to first place (`rerankerScore` 1.69 vs 1.62 in the first test). A later re-run, shown below, returned the Vacations policy first with a `rerankerScore` of 2.00 |
 
 **Conclusion:** for RAG, hybrid search (RRF) with semantic reranking is a better default. Vector search alone does not always rank well.
+
+![Hybrid query in Search Explorer](assets/07-ai-search-hybrid-query.png)
+
+![Query results with reranker scores](assets/07b-ai-search-hybrid-query-results.png)
 
 
 ## Security: an incident found and fixed
