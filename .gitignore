@@ -1,0 +1,16 @@
+# Never commit secrets or exports that may contain tenant data
+.env
+*.env
+*.key
+*.pem
+*.zip
+secrets*
+local.settings.json
+
+# Private working notes
+_PENDIENTE*
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
