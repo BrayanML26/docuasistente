@@ -147,6 +147,7 @@ Example:
 | | |
 |---|---|
 | ![Search service overview, Free tier](assets/18-ai-search-service-overview.png) | ![Blob Storage data source](assets/19-ai-search-data-source.png) |
+| ![Index fields: chunk, title and a 1536 dimension vector](assets/20-ai-search-index-fields.png) | |
 
 ### More agent conversations
 

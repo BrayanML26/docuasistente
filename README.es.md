@@ -147,6 +147,7 @@ Ejemplo:
 | | |
 |---|---|
 | ![Resumen del servicio de búsqueda, nivel gratuito](assets/18-ai-search-service-overview.png) | ![Origen de datos en Blob Storage](assets/19-ai-search-data-source.png) |
+| ![Campos del índice: chunk, title y un vector de 1536 dimensiones](assets/20-ai-search-index-fields.png) | |
 
 ### Más conversaciones con el agente
 
