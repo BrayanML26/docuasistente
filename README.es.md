@@ -8,9 +8,6 @@ Cuando alguien sube un documento a SharePoint, un flujo de **Power Automate** lo
 
 ## Demo
 
-<!-- Reemplazar con el enlace real del video o un mp4 arrastrado -->
-Video de demostración: ver el enlace en la descripción del repositorio, o la carpeta `assets/`.
-
 ![El agente responde con una cita](assets/10-agent-answer-with-citation.png)
 
 ## Arquitectura
@@ -171,7 +168,7 @@ Ejemplo:
 ## Notas
 
 - No se incluyen credenciales, claves ni identificadores del tenant. Los secretos vivían en Azure Key Vault y las claves usadas durante las pruebas fueron rotadas.
-- Los recursos de Azure de este proyecto se eliminaron después de documentarlo, así que no hay demo en vivo. Las capturas y el video muestran el sistema funcionando.
+- Los recursos de Azure de este proyecto se eliminaron después de documentarlo, así que no hay demo en vivo. Las capturas muestran el sistema funcionando.
 
 ## Autor
 

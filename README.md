@@ -8,9 +8,6 @@ When someone uploads a document to SharePoint, a **Power Automate** flow copies 
 
 ## Demo
 
-<!-- Replace with the real video link or a drag and dropped mp4 -->
-Video walkthrough: see the link in the repository description, or the `assets/` folder.
-
 ![Agent answering with a citation](assets/10-agent-answer-with-citation.png)
 
 ## Architecture
@@ -171,7 +168,7 @@ Example:
 ## Notes
 
 - No credentials, keys or tenant identifiers are included. Secrets lived in Azure Key Vault and the keys used during testing were rotated.
-- The Azure resources used for this project were deleted after documenting it, so there is no live demo. The screenshots and the video show it running.
+- The Azure resources used for this project were deleted after documenting it, so there is no live demo. The screenshots show it running.
 
 ## Author
 
