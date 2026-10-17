@@ -142,6 +142,12 @@ Ejemplo:
 | ![Lista de agentes de Foundry](assets/14-foundry-agents-list.png) | ![Bases de conocimiento](assets/15-foundry-knowledge-bases.png) |
 | ![Configuración de la base de conocimiento](assets/09b-foundry-knowledge-base-config.png) | ![Respuesta fuera de alcance](assets/11-agent-refuses-out-of-scope.png) |
 
+### Servicio de Azure AI Search
+
+| | |
+|---|---|
+| ![Resumen del servicio de búsqueda, nivel gratuito](assets/18-ai-search-service-overview.png) | ![Origen de datos en Blob Storage](assets/19-ai-search-data-source.png) |
+
 ### Más conversaciones con el agente
 
 ![Pregunta combinada y petición del prompt de sistema](assets/17-agent-combined-and-system-prompt.png)

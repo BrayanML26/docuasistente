@@ -142,6 +142,12 @@ Example:
 | ![Foundry agents list](assets/14-foundry-agents-list.png) | ![Knowledge bases](assets/15-foundry-knowledge-bases.png) |
 | ![Knowledge base configuration](assets/09b-foundry-knowledge-base-config.png) | ![Out of scope answer](assets/11-agent-refuses-out-of-scope.png) |
 
+### Azure AI Search service
+
+| | |
+|---|---|
+| ![Search service overview, Free tier](assets/18-ai-search-service-overview.png) | ![Blob Storage data source](assets/19-ai-search-data-source.png) |
+
 ### More agent conversations
 
 ![Combined question and system prompt request](assets/17-agent-combined-and-system-prompt.png)
